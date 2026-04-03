@@ -1,0 +1,51 @@
+# 504-demo — Obsidian Vault / репозиторий мастерской 504
+
+## Обзор
+
+Рабочее пространство участника **504 AI Empowered Team**. Язык по умолчанию: **русский** (`.cursor/rules/russian-input-output.mdc`).
+
+## Пути
+
+- Ежедневные заметки: **`YYYY/01-Daily/YYYY-MM-DD.md`**
+- Session-handoff: **`.claude/session-handoff.md`**
+- Учебный процесс: [[504-LEARNING-JOURNEY|504-LEARNING-JOURNEY]]
+- Домашние задания: [[504-HOMEWORK-GUIDE|504-HOMEWORK-GUIDE]]
+
+## Навыки (`.cursor/skills/`)
+
+| Навык | Триггер (пример) | Путь |
+|-------|------------------|------|
+| **session-link** | зафиксируй сессию, session start/result, checkpoint | `.cursor/skills/session-link/SKILL.md` |
+| **idea-capture** | Идея:, зафиксируй идею | `.cursor/skills/idea-capture/SKILL.md` |
+| **eq-self-diagnosis** | самодиагностика EQ, мини-кейс EQ | `.cursor/skills/eq-self-diagnosis/SKILL.md` |
+| **micro-decision-514** | принять решение, ОНМС | `.cursor/skills/micro-decision-514/SKILL.md` |
+| **stai-problem-solving** | решить проблему, системный анализ | `.cursor/skills/stai-problem-solving/SKILL.md` |
+| **504-hw-submit-prep** | подготовь ДЗ 504 | `.cursor/skills/504-hw-submit-prep/SKILL.md` |
+| **course-goals-intake** | опрос целей на курс | `.cursor/skills/course-goals-intake/SKILL.md` |
+| **participant-profile-load** | загрузи профиль | `.cursor/skills/participant-profile-load/SKILL.md` |
+| **participant-learning-profile** | учебный профиль, learner profile (опционально, не в минимальном MANIFEST) | `.cursor/skills/participant-learning-profile/SKILL.md` |
+
+## Команды Claude Code
+
+| Команда | Назначение |
+|---------|------------|
+| `/session-close` | START/MID/CLOSE по session-link |
+| `/session-start` | старт сессии |
+| `/session-result` | итог сессии (CLOSE) |
+| `/idea-capture` | фиксация идеи в день |
+| `/eq-self-diagnosis` | протокол EQ |
+| `/micro-decision-514` | решение по ОНМС |
+| `/solve-problem` | pipeline STAI |
+| `/course-goals-intake` | цели курса → goals-504.md |
+| `/participant-profile-load` | резюме профиля |
+| `/504-hw-submit-prep` | черновик ДЗ недели N |
+
+## Правила
+
+- `.cursor/rules/ai-behavior.md` — планирование, Plan mode
+- `.cursor/rules/no-pseudographics.md`
+- `.cursor/rules/russian-input-output.mdc`
+
+## Ссылки
+
+Только wikilinks `[[path]]` в заметках vault. Подробная матрица сценариев: `CLAUDE.md`.

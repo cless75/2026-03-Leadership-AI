@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" width="900" height="400">
+  <rect width="900" height="400" fill="#F8FFF2"/>
+  <text x="450" y="40" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="24" font-weight="bold" fill="#0C2340">Два уровня обучения</text>
+  <!-- Level 1 -->
+  <rect x="40" y="80" width="280" height="120" rx="12" fill="#3DCBC0" stroke="#0C2340" stroke-width="2"/>
+  <text x="180" y="125" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="18" font-weight="bold" fill="#0C2340">Уровень 1: Модели</text>
+  <text x="180" y="155" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="14" fill="#0C2340">SBI, Хоукинз, Такман</text>
+  <text x="180" y="180" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="12" fill="#0C2340">Набор рабочих инструментов</text>
+  <!-- Arrow -->
+  <line x1="320" y1="140" x2="380" y2="140" stroke="#0C2340" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="350" y="130" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="11" fill="#0C2340">мета-навык</text>
+  <!-- Level 2 -->
+  <rect x="380" y="80" width="280" height="120" rx="12" fill="#F7AF22" stroke="#0C2340" stroke-width="2"/>
+  <text x="520" y="125" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="18" font-weight="bold" fill="#0C2340">Уровень 2: Библиотека</text>
+  <text x="520" y="155" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="14" fill="#0C2340">AI-скиллы, которые растут</text>
+  <text x="520" y="180" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="12" fill="#0C2340">Живая система обучения</text>
+  <!-- Self-Improving diamond -->
+  <polygon points="780,140 850,100 780,60 710,100" fill="#F8FFF2" stroke="#F7AF22" stroke-width="3"/>
+  <text x="780" y="95" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="11" font-weight="bold" fill="#0C2340">Self-Improving</text>
+  <text x="780" y="110" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="11" fill="#0C2340">Skill</text>
+  <line x1="660" y1="140" x2="710" y2="100" stroke="#0C2340" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <!-- Cycle -->
+  <text x="780" y="170" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="10" fill="#0C2340">baseline → вариация → тест → обновление</text>
+  <!-- Footer -->
+  <text x="450" y="360" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="16" font-style="italic" fill="#0C2340">Модели устаревают. Библиотека — нет.</text>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#0C2340"/></marker></defs>
+</svg>

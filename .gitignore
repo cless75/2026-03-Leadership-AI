@@ -1,0 +1,24 @@
+# Личные данные участника
+my-profile.md
+goals-504.md
+*.local.md
+
+# Секреты
+.env
+**/.env
+.mcp.env
+**/.mcp.env
+
+# Личные конспекты (шаблон и README репозитория — не игнорировать)
+My-Notes/*.md
+My-Notes/**/*.md
+!My-Notes/README.md
+!My-Notes/TEMPLATE-WN-summary.md
+
+# Obsidian (опционально)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# OS / редактор
+.DS_Store
+Thumbs.db
