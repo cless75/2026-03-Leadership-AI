@@ -23,6 +23,7 @@ CDate: 2026-04-03
 
 - [[504-LEARNING-JOURNEY|Учебный процесс и ключевые концепты по неделям]]
 - [[504-HOMEWORK-GUIDE|Работа с домашними заданиями]]
+- **Week 1 — с чего начать:** [[Week-1/Participant/504-W1-Participant-Start-Guide|инструкция участника (старт / экспорт)]]
 - [[Week-1/Week-1-Overview|Week 1 — обзор]] · материалы: `Week-1/Participant/`
 - [[Week-2/Week-2-Overview|Week 2 — обзор]] · материалы: `Week-2/Participant/`
 

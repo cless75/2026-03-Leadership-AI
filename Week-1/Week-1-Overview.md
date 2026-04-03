@@ -9,6 +9,10 @@ status_code: 4
 
 # Week 1 — Коммуникация (Хоукинз #2)
 
+## Старт для участника
+
+**Пошаговая инструкция (экспорт / первый запуск):** [[Week-1/Participant/504-W1-Participant-Start-Guide|504-W1-Participant-Start-Guide]] — с чего начать после `git clone` или ZIP, порядок до воркшопа, ДЗ и проверка файлов.
+
 ## Цель недели
 
 Подготовить и провести один реальный сложный разговор с поддержкой AI-наставника, удерживая режим "экзоскелет", а не "коляска".
@@ -21,6 +25,7 @@ status_code: 4
 
 ## Материалы W1 (участник, этот vault)
 
+- [[Week-1/Participant/504-W1-Participant-Start-Guide|Инструкция участника Week 1 (старт)]]
 - [[Week-1/Participant/504-W1-Prep-Flipped-PreClass-Participants|PreClass для участников]]
 - [[Week-1/Participant/504-W1-Prep-NotebookLM-Student-Pack|NotebookLM Student Pack]]
 - [[Week-1/Participant/EQ-504-Entry|EQ — вход для участника]]

@@ -21,7 +21,7 @@ tags: [504, curriculum, participant]
 
 | Неделя | Тема (кратко) | Обзор | Ключевые концепты (имена) |
 |--------|---------------|-------|---------------------------|
-| **W1** | Коммуникация, Хоукинз #2 | [[Week-1/Week-1-Overview|Week 1]] | Hawkins-Team-Competencies, Exoskeleton-vs-Wheelchair, AI-Skill-Architecture-Three-Layers, Vibe-X-Management |
+| **W1** | Коммуникация, Хоукинз #2 | [[Week-1/Week-1-Overview|Week 1]] · старт: [[Week-1/Participant/504-W1-Participant-Start-Guide|инструкция W1]] | Hawkins-Team-Competencies, Exoskeleton-vs-Wheelchair, AI-Skill-Architecture-Three-Layers, Vibe-X-Management |
 | **W2** | Процессы, Хоукинз #3 | [[Week-2/Week-2-Overview|Week 2]] | Hawkins #3, Tuckman, Ideal Team Player, Organizational Rhythm, Situational Leadership, AI three layers |
 | **W3** | По программе курса | *Материалы выдаёт команда* | *По выдаче* |
 | **W4** | По программе курса | *Материалы выдаёт команда* | *По выдаче* |
