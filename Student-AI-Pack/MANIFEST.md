@@ -41,7 +41,7 @@
 
 | Неделя | Папка в этом репозитории |
 |--------|---------------------------|
-| W1 | `Week-1/Participant/` + [[Week-1/Week-1-Overview|Week-1-Overview]] |
+| W1 | `Week-1/Participant/` + [[Week-1/Week-1-Overview|Week-1-Overview]]; точка входа: [[Week-1/Participant/504-W1-Participant-Start-Guide|504-W1-Participant-Start-Guide]] |
 | W2 | `Week-2/Participant/` + [[Week-2/Week-2-Overview|Week-2-Overview]] |
 | W3–W4 | по выдаче команды курса |
 
