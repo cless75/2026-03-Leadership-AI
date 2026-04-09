@@ -4,7 +4,6 @@ Type: ai-tool
 SkillId: S07
 Week: 2
 tags:
-  - '504'
   - 'ai-skill'
   - 'week-2'
   - 'rhythms'
@@ -14,7 +13,7 @@ CDate: 2026-04-03T00:00:00.000Z
 gd_sync: true
 gd_file_id: 1hGIy0suQ3lzihXV23xmRcSFwHMJ6zheKle24EI1V2dY
 gd_web_view_link: 'https://docs.google.com/document/d/1hGIy0suQ3lzihXV23xmRcSFwHMJ6zheKle24EI1V2dY/edit'
-gd_last_export: '2026-04-03T13:07:53.944Z'
+gd_last_export: '2026-04-09T13:49:43.311Z'
 ---
 
 # AI-аналитик: Ритмы и ритуалы команды (S07)

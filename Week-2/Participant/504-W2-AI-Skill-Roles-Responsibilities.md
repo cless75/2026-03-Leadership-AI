@@ -4,7 +4,6 @@ Type: ai-tool
 SkillId: S06
 Week: 2
 tags:
-  - '504'
   - 'ai-skill'
   - 'week-2'
   - 'roles'
@@ -14,7 +13,7 @@ CDate: 2026-04-03T00:00:00.000Z
 gd_sync: true
 gd_file_id: 1zixysQXqPWepszn2jqd8Q-YkiBmavUviJgEerkCuLrw
 gd_web_view_link: 'https://docs.google.com/document/d/1zixysQXqPWepszn2jqd8Q-YkiBmavUviJgEerkCuLrw/edit'
-gd_last_export: '2026-04-03T13:07:44.521Z'
+gd_last_export: '2026-04-09T13:49:33.459Z'
 ---
 
 # AI-аналитик: Роли и зоны ответственности (S06)

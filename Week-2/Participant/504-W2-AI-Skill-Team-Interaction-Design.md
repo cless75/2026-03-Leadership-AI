@@ -4,7 +4,6 @@ Type: ai-tool
 SkillId: S05
 Week: 2
 tags:
-  - '504'
   - 'ai-skill'
   - 'week-2'
   - 'team-interaction'
@@ -14,7 +13,7 @@ CDate: 2026-04-03T00:00:00.000Z
 gd_sync: true
 gd_file_id: 1YkObrOqmpwES-KjXBPHhKRiVzSb5e5nC5Uwpc63s7zY
 gd_web_view_link: 'https://docs.google.com/document/d/1YkObrOqmpwES-KjXBPHhKRiVzSb5e5nC5Uwpc63s7zY/edit'
-gd_last_export: '2026-04-03T13:07:28.112Z'
+gd_last_export: '2026-04-09T13:49:38.605Z'
 ---
 
 # AI-аналитик: Дизайн командного взаимодействия (S05)

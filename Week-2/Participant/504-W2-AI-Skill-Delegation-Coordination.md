@@ -4,7 +4,6 @@ Type: ai-tool
 SkillId: S08
 Week: 2
 tags:
-  - '504'
   - 'ai-skill'
   - 'week-2'
   - 'delegation'
@@ -14,7 +13,7 @@ CDate: 2026-04-03T00:00:00.000Z
 gd_sync: true
 gd_file_id: 1CLidvetlRAbBqexFzGwpCKHC2X7S1epMqXW2NRgutBs
 gd_web_view_link: 'https://docs.google.com/document/d/1CLidvetlRAbBqexFzGwpCKHC2X7S1epMqXW2NRgutBs/edit'
-gd_last_export: '2026-04-03T13:08:08.256Z'
+gd_last_export: '2026-04-09T13:49:29.634Z'
 ---
 
 # AI-аналитик: Делегирование и координация (S08)
