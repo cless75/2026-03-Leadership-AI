@@ -21,10 +21,10 @@ tags: [504, curriculum, participant]
 
 | Неделя | Тема (кратко) | Обзор | Ключевые концепты (имена) |
 |--------|---------------|-------|---------------------------|
-| **W1** | Коммуникация, Хоукинз #2 | [[Week-1/Week-1-Overview|Week 1]] · старт: [[Week-1/Participant/504-W1-Participant-Start-Guide|инструкция W1]] | Hawkins-Team-Competencies, Exoskeleton-vs-Wheelchair, AI-Skill-Architecture-Three-Layers, Vibe-X-Management |
-| **W2** | Процессы, Хоукинз #3 | [[Week-2/Week-2-Overview|Week 2]] | Hawkins #3, Tuckman, Ideal Team Player, Organizational Rhythm, Situational Leadership, AI three layers |
-| **W3** | По программе курса | *Материалы выдаёт команда* | *По выдаче* |
-| **W4** | По программе курса | *Материалы выдаёт команда* | *По выдаче* |
+| **M1** | Коммуникация, Хоукинз #2 | [[Module-1/Module-1-Overview|Week 1]] · старт: [[Module-1/Participant/504-M1-Participant-Start-Guide|инструкция M1]] | Hawkins-Team-Competencies, Exoskeleton-vs-Wheelchair, AI-Skill-Architecture-Three-Layers, Vibe-X-Management |
+| **M2** | Процессы, Хоукинз #3 | [[Module-2/Module-2-Overview|Week 2]] | Hawkins #3, Tuckman, Ideal Team Player, Organizational Rhythm, Situational Leadership, AI three layers |
+| **M3** | По программе курса | *Материалы выдаёт команда* | *По выдаче* |
+| **M4** | По программе курса | *Материалы выдаёт команда* | *По выдаче* |
 
 Развёрнутые карточки концептов находятся в полном vault курса у команды MDPG; в автономном репозитории сохранены **имена** и связь с неделей.
 
@@ -34,5 +34,5 @@ tags: [504, curriculum, participant]
 
 ## См. также
 
-- [[Week-1/Participant/EQ-504-Entry|Вход в трек EQ (Week 1)]]
+- [[Module-1/Participant/EQ-504-Entry|Вход в трек EQ (Week 1)]]
 - [[Student-AI-Pack/README|Student-AI-Pack README]]

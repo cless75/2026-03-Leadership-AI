@@ -1,6 +1,6 @@
 # 2026-03-Leadership-AI — мастерская 504 (AI Empowered Team)
 
-Автономный Obsidian-vault и студенческий AI-пакет для курса **504**. Состав: навыки в `.cursor/skills/`, команды Claude Code в `.claude/commands/`, материалы участника `Week-1/`, `Week-2/`, каталог [[Student-AI-Pack/README|Student-AI-Pack]].
+Автономный Obsidian-vault и студенческий AI-пакет для курса **504**. Состав: навыки в `.cursor/skills/`, команды Claude Code в `.claude/commands/`, материалы участника `Module-1/`, `Module-2/`, каталог [[Student-AI-Pack/README|Student-AI-Pack]].
 
 ## Быстрый старт
 

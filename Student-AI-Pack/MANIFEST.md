@@ -1,61 +1,75 @@
 # MANIFEST — состав студенческого AI-пакета 504
 
-Этот файл в репозитории **2026-03-Leadership-AI** описывает **минимальный** набор для участника. Канонический курс живёт в vault Master-Strategy2 у команды MDPG; при сборке нового релиза сверяйтесь с оригинальным MANIFEST там.
+Канон путей относительно корня vault **Master-Strategy2**. При сборке ZIP или Git копируйте в корень релиза указанные деревья.
 
 ## Навыки (`.cursor/skills/<id>/`)
 
 Копировать **целиком** каждую папку (все `.md` + `SKILL.md`).
 
-| ID | Назначение |
-|----|------------|
-| `course-goals-intake` | Опрос целей на курс по шаблону |
-| `participant-profile-load` | Загрузка и нормализация профиля из `.md` |
-| `504-hw-submit-prep` | Подготовка черновика сдачи ДЗ |
-| `eq-self-diagnosis` | Самодиагностика EQ (Гоулман), мини-кейсы |
-| `stai-problem-solving` | Системное решение проблемы (STAI 514) |
+| ID | Источник в vault | Назначение |
+|----|------------------|------------|
+| `course-goals-intake` | `.cursor/skills/course-goals-intake/` | Опрос целей на курс по шаблону |
+| `participant-profile-load` | `.cursor/skills/participant-profile-load/` | Загрузка и нормализация профиля из `.md` |
+| `504-hw-submit-prep` | `.cursor/skills/504-hw-submit-prep/` | Подготовка черновика сдачи ДЗ |
+| `eq-self-diagnosis` | `.cursor/skills/eq-self-diagnosis/` | Самодиагностика EQ (Гоулман), мини-кейсы |
+| `stai-problem-solving` | `.cursor/skills/stai-problem-solving/` | Системное решение проблемы (STAI 514): формулирование → диагностика → решение → реализация |
 
-## Дополнительно в этом репозитории (удобство Cursor / Claude Code)
+## Служебные файлы пакета (этот каталог)
 
-Не входят в минимальный ZIP для Claude.ai Skills, но нужны для сессий и идей в IDE:
+| Файл | Путь в каноне |
+|------|----------------|
+| README | `MS-Courses/25-CM-MDPG/504-CM-AI-Empowered-Team/Student-AI-Pack/README.md` |
+| INSTALL | `…/Student-AI-Pack/INSTALL.md` |
+| MANIFEST | `…/Student-AI-Pack/MANIFEST.md` |
+| Шаблоны | `…/Student-AI-Pack/templates/*.md` |
 
-| ID | Назначение |
-|----|------------|
-| `session-link` | Связь сессии с ПЗ и журналом дня |
-| `idea-capture` | Быстрая фиксация идей |
-| `micro-decision-514` | Микро-решения по ОНМС (514) |
+## Материалы участника по модулям
 
-**Опционально:** `participant-learning-profile` — углублённый учебный профиль / менторский контур.
+Копировать содержимое **`Module-N/Participant/`** (публичное). На релизе v1 минимум **M1**; по мере готовности — M2–M4.
 
-В репозитории **нет** навыка `504-hw-cohort-processing` (сводка когорты для ментора).
+| Модуль | Путь в каноне |
+|--------|----------------|
+| M1 | `MS-Courses/25-CM-MDPG/504-CM-AI-Empowered-Team/Module-1/Participant/` |
+| M2 | `…/Module-2/Participant/` |
+| M3 | `…/Module-3/Participant/` |
+| M4 | `…/Module-4/Participant/` |
 
-## Служебные файлы пакета (каталог `Student-AI-Pack/`)
+Опционально для NotebookLM: `Module-N/NotebookLM/*.md` (без приватных заметок).
 
-| Файл | Назначение |
-|------|------------|
-| README | Обзор пакета |
-| INSTALL | Установка и клонирование |
-| MANIFEST | Этот файл |
-| `templates/*.md` | Шаблоны целей, профиля, чеклист ДЗ |
+## Навыки курса по модулям
 
-## Материалы участника по неделям (в корне репозитория)
+Навыки находятся в `Module-N/Participant/` и копируются вместе с материалами участника.
 
-| Неделя | Папка в этом репозитории |
-|--------|---------------------------|
-| W1 | `Week-1/Participant/` + [[Week-1/Week-1-Overview|Week-1-Overview]]; точка входа: [[Week-1/Participant/504-W1-Participant-Start-Guide|504-W1-Participant-Start-Guide]] |
-| W2 | `Week-2/Participant/` + [[Week-2/Week-2-Overview|Week-2-Overview]] |
-| W3–W4 | по выдаче команды курса |
+| Модуль | SkillId | Файл | Назначение |
+|--------|---------|------|------------|
+| M1 | S1.01 | `504-M1-AI-Mentor-Communication.md` | Обратная связь и коммуникация |
+| M1 | S1.05 | `504-M1-AI-Skill-Situational-Leadership.md` | Ситуационное лидерство |
+| M2 | S2.00 | `504-M2-AI-Skill-Value-Chain-Diagnostics.md` | Value Chain (оркестратор) |
+| M2 | S2.01 | `504-M2-AI-Skill-Team-Interaction-Design.md` | Дизайн взаимодействия |
+| M2 | S2.02 | `504-M2-AI-Skill-Roles-Responsibilities.md` | Роли и ответственность |
+| M2 | S2.03 | `504-M2-AI-Skill-Team-Rhythms.md` | Ритмы команды |
+| M2 | S2.04 | `504-M2-AI-Skill-Delegation-Coordination.md` | Делегирование |
+| **M3** | **S3.00** | **`504-M3-AI-Skill-Stakeholder-Orchestrator.md`** | **Оркестратор стейкхолдеров** |
+| **M3** | **S3.01** | **`504-M3-AI-Skill-Stakeholder-Mapping.md`** | **Карта стейкхолдеров** |
+| **M3** | **S3.02** | **`504-M3-AI-Skill-Manage-Up.md`** | **Manage Up** |
+| **M3** | **S3.03** | **`504-M3-AI-Skill-Negotiation-Alignment.md`** | **Переговоры** |
+| **M3** | **S3.04** | **`504-M3-AI-Skill-Conflict-Escalation.md`** | **Конфликт и эскалация** |
+| M4 | S4.00-S4.04 | `504-M4-AI-Skill-*.md` | В работе |
 
-## Вход EQ для участника
+## Вход EQ для участника (страница-объяснение)
 
-- [[Week-1/Participant/EQ-504-Entry|EQ-504-Entry]]
+| Файл | Путь |
+|------|------|
+| EQ — вход | `MS-Courses/25-CM-MDPG/504-CM-AI-Empowered-Team/Module-1/Participant/EQ-504-Entry.md` |
 
-## Не включать в публичный коммит
+## Не включать в студенческий дистрибутив
 
-- Личные `my-profile.md`, `goals-504.md` (см. `.gitignore`)
-- `.env`, `.mcp.env`, секреты
+- `Module-N/Facilitator/Private/`
+- `Module-N/Facilitator/` (кроме явного решения курса о публичном фасилитации — по умолчанию **не включать**)
+- `2026/504/*` (операционный контур)
+- `.env`, `.mcp.json`, секреты
 
-## См. также
+## Связанные документы
 
-- [[504-LEARNING-JOURNEY|Учебный процесс]]
-- [[504-HOMEWORK-GUIDE|Домашние задания]]
-- Канон курса и гайды авторов — у команды MDPG (вне этого репозитория).
+- [[MS-Courses/Course-Design/Course-Student-AI-Pack-Guide|Course-Student-AI-Pack-Guide]]
+- [[MS-Courses/Course-Design/Course-Package-Policy|Course-Package-Policy]]
