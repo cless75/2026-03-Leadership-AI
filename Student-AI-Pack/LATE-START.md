@@ -1,8 +1,16 @@
 ---
 ProjectId: 504
 Type: student-ai-pack
-tags: [504, student-pack, onboarding, late-start]
-CDate: 2026-04-13
+tags:
+  - '504'
+  - 'student-pack'
+  - 'onboarding'
+  - 'late-start'
+gd_sync: true
+CDate: 2026-04-13T00:00:00.000Z
+gd_file_id: 1i-noTumgrju-0k2WUcvcUPWsi3MD1QvgtQB_O1A8j2g
+gd_web_view_link: 'https://docs.google.com/document/d/1i-noTumgrju-0k2WUcvcUPWsi3MD1QvgtQB_O1A8j2g/edit'
+gd_last_export: '2026-04-13T10:35:02.444Z'
 ---
 
 # Быстрый старт: присоединяюсь к курсу
