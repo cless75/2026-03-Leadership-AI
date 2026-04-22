@@ -3,17 +3,17 @@ ProjectId: 504
 Type: prep
 Module: 1
 tags:
-  - '504'
   - 'illustrations'
   - 'prompts'
   - 'module-1'
 gd_sync: true
 CDate: 2026-03-28T00:00:00.000Z
 gd_file_id: 1nVvlWdU0ZQSvBWSqhqPxtl0wtssKOhEuVyXFLQx7oXQ
-gd_last_export: '2026-03-28T08:12:13.693Z'
+gd_last_export: '2026-04-07T08:36:38.883Z'
+gd_web_view_link: 'https://docs.google.com/document/d/1nVvlWdU0ZQSvBWSqhqPxtl0wtssKOhEuVyXFLQx7oXQ/edit'
 ---
 
-# Промпты иллюстраций: неделя 1 (Коммуникация) + Kick-Start
+# Промпты иллюстраций: модуль 1 (Коммуникация) + Kick-Start
 
 > Промпты для генерации визуальных материалов к преридингу, воркшопу M1 и школьному Kick-Start когорты.
 > **Правило:** AI-генераторы плохо рендерят кириллицу — генерировать **только визуал без текста**, текст накладывать отдельно в Canva/Figma.

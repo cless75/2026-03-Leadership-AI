@@ -10,7 +10,7 @@ tags:
 gd_sync: true
 CDate: 2026-03-28T00:00:00.000Z
 gd_file_id: 12kCwWcWqyD1VjVfpz7YWZtcarm8atWtQLzqulpcRWJI
-gd_last_export: '2026-03-28T08:29:09.301Z'
+gd_last_export: '2026-04-07T08:36:24.271Z'
 gd_web_view_link: 'https://docs.google.com/document/d/12kCwWcWqyD1VjVfpz7YWZtcarm8atWtQLzqulpcRWJI/edit'
 ---
 
@@ -32,7 +32,7 @@ gd_web_view_link: 'https://docs.google.com/document/d/12kCwWcWqyD1VjVfpz7YWZtcar
 
 Разница принципиальна: уровень 1 устаревает (модели обновляются, контекст меняется). Уровень 2 — мета-навык: умение строить системы обучения, которые адаптируются сами. Именно поэтому результат мастерской — не конспект с моделями, а **живая библиотека 16 скиллов**, каждый из которых способен обновлять свои инструкции.
 
-![[504-s-Two-Levels-Learning-M1.png|800]]
+![[504-s-Two-Levels-Learning-M1.excalidraw.light.png|800]]
 Схема: [[504-s-Two-Levels-Learning-M1.excalidraw|Два уровня обучения]]
 
 %%IL-01 PROMPT: Professional illustration, clean modern style, corporate blue and teal palette (#0C2340, #3DCBC0, #F7AF22 accents). Two business people studying models at a desk (level 1), transitioning into building a glowing digital skill library together with AI (level 2). Subtle geometric patterns. NO text, NO labels, NO words.%%
@@ -53,7 +53,7 @@ gd_web_view_link: 'https://docs.google.com/document/d/12kCwWcWqyD1VjVfpz7YWZtcar
 
 Это не замена людей — а расширение команды. Лидер решает, **в какой роли** AI полезен для конкретной задачи, и следит, чтобы AI оставался **экзоскелетом**, а не коляской.
 
-![[504-s-AI-Team-Member-Roles.png|800]]
+![[504-s-AI-Team-Member-Roles.excalidraw.light.png|800]]
 Схема: [[504-s-AI-Team-Member-Roles.excalidraw|AI — член команды (три роли)]]
 
 %%IL-04 PROMPT: Modern illustration of collaborative work. Two business people and a translucent AI figure sitting at table as equals. AI has gentle teal glow. On the table: abstract framework shapes. Warm professional atmosphere, blue (#0C2340) and teal (#3DCBC0) palette, orange (#F7AF22) accent on AI outline. NO text, NO labels, NO words.%%
@@ -116,7 +116,7 @@ gd_web_view_link: 'https://docs.google.com/document/d/12kCwWcWqyD1VjVfpz7YWZtcar
 
 **Важно:** для рутинных задач (форматирование, поиск данных) «коляска» — это нормально и правильно. Проблема начинается, когда AI замещает **навыковые** задачи: коммуникацию, мышление, лидерство.
 
-![[504-s-Exoskeleton-vs-Wheelchair-M1.png|800]]
+![[504-s-Exoskeleton-vs-Wheelchair-M1.excalidraw.light.png|800]]
 Схема: [[504-s-Exoskeleton-vs-Wheelchair-M1.excalidraw|Экзоскелет vs Коляска]]
 
 %%IL-02 PROMPT: Split illustration, clean modern corporate style, blue-teal palette. Left: confident business person with sleek technological exoskeleton, glowing teal lines, standing tall. Right: same person sitting passively in high-tech wheelchair/pod, carried by robotic arms. Clean dividing line with orange accent (#F7AF22). Minimalist background. NO text, NO labels, NO letters.%%

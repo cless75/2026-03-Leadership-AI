@@ -2,8 +2,16 @@
 ProjectId: 504
 Type: prep
 Module: 1
-tags: [504, flipped-classroom, module-1, transfer-map]
-CDate: 2026-03-28
+tags:
+  - 'flipped-classroom'
+  - 'module-1'
+  - 'transfer-map'
+CDate: 2026-03-28T00:00:00.000Z
+version: v1
+gd_sync: true
+gd_file_id: 1pxl0jAMjwbYi8UguFm4YM6PcVSz9viBa3hOeWttfYEs
+gd_web_view_link: 'https://docs.google.com/document/d/1pxl0jAMjwbYi8UguFm4YM6PcVSz9viBa3hOeWttfYEs/edit'
+gd_last_export: '2026-04-07T08:36:29.331Z'
 ---
 
 # Карта переноса: PreClass → InClass (Модуль 1, Коммуникация)
@@ -12,7 +20,7 @@ CDate: 2026-03-28
 
 **Преридинг:** [[504-M1-Prep-Flipped-PreClass-Participants]]
 **Run-of-Show:** [[504-M1-Prep-Flipped-InClass-Mentor-RunOfShow]] *(TBD)*
-**Матрица контента:** [[MS-Courses/25-CM-MDPG/504-CM-AI-Empowered-Team/Operations/504-m-Concepts-Three-Layers-Map|504-m]] (строка неделя 1)
+**Матрица контента:** [[MS-Courses/25-CM-MDPG/504-CM-AI-Empowered-Team/Operations/504-m-Concepts-Three-Layers-Map|504-m]] (строка модуль 1)
 
 ---
 
@@ -43,9 +51,9 @@ CDate: 2026-03-28
 
 | Тема | Причина | Где углубиться |
 |------|---------|----------------|
-| Детали модели Хоукинза (все 5 компетенций) | Компетенции 1, 3, 4, 5 — темы следующих недель | [[Hawkins-Team-Competencies]] |
-| Данные Microsoft / MIT / WEF | Контекст понятен из преридинга, не тратим время воркшопа | [[Exoskeleton-vs-Wheelchair]], [[AI-Soft-Skills-Degradation]] |
-| eq-self-diagnosis (детально) | Справочный инструмент, не обязательный для M1 | [[eq-self-diagnosis]] |
+| Детали модели Хоукинза (все 5 компетенций) | Компетенции 1, 3, 4, 5 — темы следующих недель | [Hawkins-Team-Competencies](../../../Concepts/Hawkins-Team-Competencies.md) |
+| Данные Microsoft / MIT / WEF | Контекст понятен из преридинга, не тратим время воркшопа | [Exoskeleton-vs-Wheelchair](../../../Concepts/Exoskeleton-vs-Wheelchair.md), [AI-Soft-Skills-Degradation](../../../Concepts/AI-Soft-Skills-Degradation.md) |
+| eq-self-diagnosis (детально) | Справочный инструмент, не обязательный для M1 | [EQ-504-Entry](EQ-504-Entry.md) |
 
 ---
 
@@ -55,7 +63,7 @@ CDate: 2026-03-28
 
 | Тема | Источник | Зачем |
 |------|----------|-------|
-| **SBI / BOFF** — модели обратной связи | Программа v3.1 (неделя 1) | Практический инструмент: структура для кейса из PreClass |
+| **SBI / BOFF** — модели обратной связи | Программа v3.1 (модуль 1) | Практический инструмент: структура для кейса из PreClass |
 | **Структура сложного разговора** | Программа v3.1 | Подготовка → проведение → завершение: алгоритм для отложенного разговора |
 | **Vibe × Management — роли × AI** | [[Vibe-X-Management]] | Контекст: коммуникация как задача **Лидера (Growth)**, не Менеджера |
 | **Мини-кейс: диалог + AI** | TBD (по матрице 504-m) | 1–2 короткие ситуации для парного вайб-креаторства |

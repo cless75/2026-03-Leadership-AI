@@ -1,11 +1,11 @@
 ---
 ProjectId: 504
 Type: ai-tool
-SkillId: S17
+SkillId: S1.05
+SkillId_old: S17
 Module: 1
 WeekLink: cross-week
 tags:
-  - '504'
   - 'ai-skill'
   - 'module-1'
   - 'situational-leadership'
@@ -16,7 +16,7 @@ CDate: 2026-04-03T00:00:00.000Z
 gd_sync: true
 gd_file_id: 1nRILvbLJvErOO-xL5o5wVDiwFmNiG8Kf1WWjeTwfANM
 gd_web_view_link: 'https://docs.google.com/document/d/1nRILvbLJvErOO-xL5o5wVDiwFmNiG8Kf1WWjeTwfANM/edit'
-gd_last_export: '2026-04-03T06:39:02.159Z'
+gd_last_export: '2026-04-07T08:36:02.419Z'
 ---
 
 # AI-наставник: Ситуационное лидерство — Диагностика и постановка задачи (S17)

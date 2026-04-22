@@ -14,7 +14,7 @@ MDate: 2026-04-12T00:00:00.000Z
 version: v2
 gd_file_id: 1w5sf0rea4UNCdb-jp9ufe-e0OpJk9xnf6mJWJgXCHVQ
 gd_web_view_link: 'https://docs.google.com/document/d/1w5sf0rea4UNCdb-jp9ufe-e0OpJk9xnf6mJWJgXCHVQ/edit'
-gd_last_export: '2026-04-13T10:33:35.197Z'
+gd_last_export: '2026-04-14T19:51:59.798Z'
 ---
 
 # Модуль 3: Стейкхолдеры и внешняя среда — подготовка

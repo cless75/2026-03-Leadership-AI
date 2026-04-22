@@ -3,7 +3,6 @@ ProjectId: 504
 Type: participant-guide
 Module: 1
 tags:
-  - '504'
   - 'eq'
   - 'participant'
   - 'soft-skills'
@@ -11,11 +10,8 @@ CDate: 2026-04-03T00:00:00.000Z
 gd_sync: true
 gd_file_id: 1CGIu_9cj7hJPWiTZfo0yDqkmGdVo1rERrycjkB6mVbU
 gd_web_view_link: 'https://docs.google.com/document/d/1CGIu_9cj7hJPWiTZfo0yDqkmGdVo1rERrycjkB6mVbU/edit'
-gd_last_export: '2026-04-03T06:49:24.881Z'
+gd_last_export: '2026-04-07T08:36:56.024Z'
 ---
-
-> [!note] Ссылки на концепты
-> Ниже в тексте сохранены wikilink на карточки из полного vault курса (`MS-Courses/Concepts/...`). В этом автономном репозитории они могут отображаться как неразрешённые; имена концептов и контекст недели см. в [[Module-1/Module-1-Overview|обзоре Module 1]] и [[504-LEARNING-JOURNEY|учебном процессе]].
 
 # EQ на мастерской 504 — вход для участника
 
@@ -37,8 +33,8 @@ gd_last_export: '2026-04-03T06:49:24.881Z'
 
 ## Загрузка только в Claude.ai (Skills)
 
-Загрузите **всю папку** `eq-self-diagnosis` (файл `SKILL.md` и все `.md` рядом) как один Skill — см. [[Student-AI-Pack/MANIFEST|MANIFEST]].
+Загрузите **всю папку** `eq-self-diagnosis` (файл `SKILL.md` и все `.md` рядом) как один Skill — см. [[../Student-AI-Pack/MANIFEST|MANIFEST]].
 
 ## Сводный пакет
 
-Состав дистрибутива и остальные служебные навыки: [[Student-AI-Pack/README|Student-AI-Pack README]] и [[Student-AI-Pack/MANIFEST|MANIFEST]].
+Состав дистрибутива и остальные служебные навыки: [[../Student-AI-Pack/README|Student-AI-Pack README]] и [[../Student-AI-Pack/MANIFEST|MANIFEST]].

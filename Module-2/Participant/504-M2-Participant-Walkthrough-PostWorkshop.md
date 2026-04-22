@@ -11,7 +11,7 @@ version: v1.1
 gd_sync: true
 gd_file_id: 1sF2D9iua95gaPtiRxxrKZ4Mei13LIlyfJZK3OT4V65w
 gd_web_view_link: 'https://docs.google.com/document/d/1sF2D9iua95gaPtiRxxrKZ4Mei13LIlyfJZK3OT4V65w/edit'
-gd_last_export: '2026-04-09T14:10:04.071Z'
+gd_last_export: '2026-04-09T17:28:50.683Z'
 ---
 
 # Walk-through глазами участника — после воркшопа M2
@@ -40,13 +40,13 @@ gd_last_export: '2026-04-09T14:10:04.071Z'
 
 ## Шаг 4 — Карточка цели v2
 
-Откройте [Карточку цели M2](https://docs.google.com/document/d/1kF7e_Dabu4SNDVcpFnHVV2O8kDD1iJ4bzi2Tkj7Cn3c/edit). Выберите **кластер** (рекомендуется начать с **цепочки ценности + S09**, если ещё не строили карту). Заполните «конкретное действие на неделю» одним предложением.
+Откройте [Карточку цели M2 v2.1](https://docs.google.com/document/d/1kF7e_Dabu4SNDVcpFnHVV2O8kDD1iJ4bzi2Tkj7Cn3c/edit). В v2.1 — **10 кластеров**: 5 базовых (S05–S09) + 5 кластеров мыслесессии (Оргтипология, AI-микрокоманда, Employee Journey RGT, AI-делегирование, экзоскелет vs коляска). Выберите **один основной** (рекомендуется начать с **цепочки ценности + S09**, если ещё не строили карту) и при желании **один вторичный**. Заполните «конкретное действие на неделю» одним предложением.
 
 ---
 
 ## Шаг 5 — Подключить S09 в Claude Project
 
-1. Откройте [S09 — Value Chain Diagnostics](https://docs.google.com/document/d/1xNhSfZBgX-ThuLskqF0_gCENDenxGqqhspEacd7DlBE/edit).  
+1. Откройте [S09 — Диагностика цепочки создания ценности (Value Chain Diagnostics)](https://docs.google.com/document/d/1xNhSfZBgX-ThuLskqF0_gCENDenxGqqhspEacd7DlBE/edit).  
 2. Скопируйте раздел **«Промпт для Claude Project»** в инструкции вашего проекта (или в первое сообщение сессии).  
 3. Запустите диалог: опишите свою команду / процесс **или** скажите, что работаете на кейсе TechVision.
 

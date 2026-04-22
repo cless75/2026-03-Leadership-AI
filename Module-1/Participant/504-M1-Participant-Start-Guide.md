@@ -2,63 +2,46 @@
 ProjectId: 504
 Type: participant-guide
 Module: 1
-tags: [504, module-1, participant, onboarding, export]
-CDate: 2026-04-03
+tags:
+  - 'module-1'
+  - 'participant'
+  - 'onboarding'
+  - 'export'
+CDate: 2026-04-03T00:00:00.000Z
 version: v1
+gd_sync: true
+gd_file_id: 1Jid_LPGvKA1ww_higDujMd9iNu2OBs98tHufjk-v1YQ
+gd_web_view_link: 'https://docs.google.com/document/d/1Jid_LPGvKA1ww_higDujMd9iNu2OBs98tHufjk-v1YQ/edit'
+gd_last_export: '2026-04-07T08:36:17.631Z'
 ---
 
-# Модуль 1 — инструкция для участника (старт и экспорт пакета)
+# Модуль 1 — инструкция для участника (старт и выдача материалов)
 
-Этот файл — **единая точка входа** в первую неделю после того, как вы получили материалы **архивом**, **клоном GitHub** или копией папки. Дальше открывайте заметки по ссылкам ниже в Obsidian или в Cursor / Claude Code как vault-проект.
+## Где работать: полный vault или студенческий репозиторий
 
-## 1. Как получить пакет
+| Контекст | Что использовать |
+|----------|------------------|
+| **Студенческий пакет (Cursor / Claude Code, GitHub)** | Репозиторий [cless75/2026-03-Leadership-AI](https://github.com/cless75/2026-03-Leadership-AI) — там автономные пути и гайды [[Student-AI-Pack/INSTALL|INSTALL]], `504-HOMEWORK-GUIDE`, `504-LEARNING-JOURNEY`. Источник правды для участника после `git clone`. |
+| **Этот vault (Master-Strategy / Obsidian)** | Те же смыслы ниже; ссылки — на заметки курса 504 в текущем дереве. Экспорт в Google Doc — по `gd_sync` у конкретных файлов (см. frontmatter). |
 
-| Способ | Действие |
-|--------|----------|
-| **GitHub** | Репозиторий [cless75/2026-03-Leadership-AI](https://github.com/cless75/2026-03-Leadership-AI): `git clone`, затем откройте **корень клона** в Cursor или Claude Code. Подробно: [[Student-AI-Pack/INSTALL|INSTALL]]. |
-| **ZIP** | Распакуйте в папку **без кириллицы** в пути, откройте эту папку как проект (внутри должны быть `.cursor/skills/` и `Student-AI-Pack/`). |
+## Порядок до воркшопа M1
 
-Личные файлы (`my-profile.md`, `goals-504.md`, черновики в `My-Notes/`) **не коммитьте** в публичный Git — см. `.gitignore`.
+1. **Пакет AI:** [[MS-Courses/25-CM-MDPG/504-CM-AI-Empowered-Team/Student-AI-Pack/README|Student-AI-Pack README]] и при работе в IDE — навыки из `.cursor/skills/` (после сборки релиза по [[MS-Courses/25-CM-MDPG/504-CM-AI-Empowered-Team/Student-AI-Pack/MANIFEST|MANIFEST]]).
+2. **Цели и профиль:** шаблоны [[MS-Courses/25-CM-MDPG/504-CM-AI-Empowered-Team/Student-AI-Pack/templates/goals-intake|goals-intake]], [[MS-Courses/25-CM-MDPG/504-CM-AI-Empowered-Team/Student-AI-Pack/templates/participant-profile.template|participant-profile.template]].
+3. **PreClass:** [[504-M1-Prep-Flipped-PreClass-Participants|Подготовка к воркшопу (15–20 мин)]].
+4. **Карта (опционально):** [[504-M1-Prep-Flipped-PreToInClass-Map|PreToInClass Map]].
+5. **EQ:** [[EQ-504-Entry|Вход в трек EQ]].
+6. **Материалы недели:** [[504-M1-AI-Mentor-Communication|AI-наставник: коммуникация]], [[504-M1-AI-Skill-Situational-Leadership|Ситуационное лидерство]], [[504-M1-Mentoring-Goal-Card|Карточка цели]], при необходимости [[504-M1-Prep-NotebookLM-Student-Pack|NotebookLM Student Pack]].
 
-## 2. Что сделать до воркшопа M1 (порядок)
+## Домашнее задание
 
-1. **Установка AI-среды** — [[Student-AI-Pack/INSTALL|INSTALL]] (уже сделано, если проект открыт).
-2. **Цели и профиль** (по желанию до или в первую неделю): шаблоны [[Student-AI-Pack/templates/goals-intake|целей]] и [[Student-AI-Pack/templates/participant-profile.template|профиля]]; в чате можно вызвать команды `/course-goals-intake` и `/participant-profile-load`.
-3. **PreClass** — [[Module-1/Participant/504-M1-Prep-Flipped-PreClass-Participants|Модуль 1: подготовка к воркшопу]] (15–20 минут до живого занятия).
-4. **Карта PreClass → InClass** (по желанию) — [[Module-1/Participant/504-M1-Prep-Flipped-PreToInClass-Map|PreToInClass Map]].
-5. **EQ** — [[Module-1/Participant/EQ-504-Entry|Вход в трек EQ]] и навык `eq-self-diagnosis` в `.cursor/skills/` (триггеры: «самодиагностика EQ», «мини-кейс EQ»).
-6. **Материалы недели в этом репозитории** (читать по ходу недели):
-   - [[Module-1/Participant/504-M1-AI-Mentor-Communication|AI-наставник: коммуникация (локальная заметка)]]
-   - [[Module-1/Participant/504-M1-AI-Skill-Situational-Leadership|Ситуационное лидерство (локальная заметка)]]
-   - [[Module-1/Participant/504-M1-Mentoring-Goal-Card|Карточка цели недели]]
-   - [[Module-1/Participant/504-M1-Prep-NotebookLM-Student-Pack|NotebookLM Student Pack]] (если используете NotebookLM)
-7. **Схемы** в той же папке: `504-s-*.excalidraw.md` / `.svg` — для визуального закрепления.
+- [[504-M1-HW-Instructions|Инструкция ДЗ недели 1]] — каналы сдачи и чеклист только из этого файла.
+- В **студенческом** репозитории дополнительно: общий порядок сдачи и команда `/504-hw-submit-prep` (см. репозиторий на GitHub).
 
-> В исходных Google Doc (ссылки внутри [[Module-1/Participant/504-M1-HW-Instructions|инструкции по ДЗ]] и PreClass) может быть та же логика; **истина для офлайн-работы в этом vault** — файлы в `Module-1/Participant/`.
+## Обзор недели и концепты
 
-## 3. Домашнее задание недели 1
+- [[../Module-1-Overview|Module-1-Overview]]
 
-- Полная инструкция: [[Module-1/Participant/504-M1-HW-Instructions|Домашнее задание — неделя 1]].
-- Общий порядок сдачи и AI-помощь: [[504-HOMEWORK-GUIDE|504-HOMEWORK-GUIDE]].
-- Черновик сдачи в Cursor / Claude Code: команда **`/504-hw-submit-prep`** (неделя **1**).
+## Проверка комплектности (участник)
 
-Каналы сдачи (Telegram + полный протокол) — **строго как в файле ДЗ**, не сокращайте без договорённости с ментором.
-
-## 4. Навигация и контекст курса
-
-- Обзор недели: [[Module-1/Module-1-Overview|Module-1-Overview]].
-- Весь учебный процесс 504: [[504-LEARNING-JOURNEY|504-LEARNING-JOURNEY]].
-- Список навыков и команд: [[Student-AI-Pack/MANIFEST|MANIFEST]] и `CLAUDE.md` в корне репозитория.
-
-## 5. Проверка «всё на месте» (для самопроверки)
-
-В папке `Module-1/Participant/` у вас должны быть доступны как минимум:
-
-- `504-M1-Participant-Start-Guide.md` (этот файл)
-- `504-M1-Prep-Flipped-PreClass-Participants.md`
-- `504-M1-HW-Instructions.md`
-- `EQ-504-Entry.md`
-- `504-M1-Mentoring-Goal-Card.md`
-- AI-скилл заметки: `504-M1-AI-Mentor-Communication.md`, `504-M1-AI-Skill-Situational-Leadership.md`
-
-Если чего-то нет — обновите клон (`git pull`) или запросите актуальный архив у команды курса.
+В `Module-1/Participant/` доступны: этот файл, PreClass, HW Instructions, EQ-504-Entry, карточка цели, заметки AI-скиллов M1, NotebookLM pack (по программе).

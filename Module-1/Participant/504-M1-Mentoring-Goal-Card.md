@@ -3,7 +3,6 @@ ProjectId: 504
 Type: template
 Module: 1
 tags:
-  - '504'
   - 'mentoring-goal'
   - 'module-1'
 CDate: 2026-04-02T00:00:00.000Z
@@ -11,7 +10,7 @@ version: v1
 gd_sync: true
 gd_file_id: 1sdYXlc9AweTpLTNrHMTukxLG8wLKEEUM-OjPYQ9_LS8
 gd_web_view_link: 'https://docs.google.com/document/d/1sdYXlc9AweTpLTNrHMTukxLG8wLKEEUM-OjPYQ9_LS8/edit'
-gd_last_export: '2026-04-03T06:38:42.133Z'
+gd_last_export: '2026-04-07T08:36:12.694Z'
 ---
 
 # Карточка цели недели — M1 (шаблон участника)
@@ -21,7 +20,7 @@ gd_last_export: '2026-04-03T06:38:42.133Z'
 
 ---
 
-## Моя карточка — неделя 1
+## Моя карточка — модуль 1
 
 ### Участник
 

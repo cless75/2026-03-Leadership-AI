@@ -3,6 +3,10 @@ my-profile.md
 goals-504.md
 *.local.md
 
+# Локальные служебные файлы
+.claude/settings.local.json
+2026/
+
 # Секреты
 .env
 **/.env
@@ -15,9 +19,8 @@ My-Notes/**/*.md
 !My-Notes/README.md
 !My-Notes/TEMPLATE-WN-summary.md
 
-# Obsidian (опционально)
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
+# Obsidian (локальные настройки)
+.obsidian/
 
 # OS / редактор
 .DS_Store

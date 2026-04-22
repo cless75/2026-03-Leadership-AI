@@ -3,16 +3,17 @@ ProjectId: 504
 Type: prep
 Module: 1
 tags:
-  - notebooklm
-  - student-pack
-  - module-1
+  - 'notebooklm'
+  - 'student-pack'
+  - 'module-1'
 CDate: 2026-03-28T00:00:00.000Z
 gd_sync: true
 gd_file_id: 19xwyAUhietzQzKgEMlrr_9D0zVqPRQQrd7c00v4yJ_I
-gd_last_export: 2026-03-28T02:58:49.750Z
+gd_last_export: '2026-04-07T08:36:49.324Z'
+gd_web_view_link: 'https://docs.google.com/document/d/19xwyAUhietzQzKgEMlrr_9D0zVqPRQQrd7c00v4yJ_I/edit'
 ---
 
-# Student Pack — NotebookLM неделя 1: Коммуникация
+# Student Pack — NotebookLM модуль 1: Коммуникация
 
 **Мастерская:** AI Empowered Team (504)
 **Неделя:** 1 — Коммуникация (Хоукинз #2)
@@ -210,7 +211,7 @@ gd_last_export: 2026-03-28T02:58:49.750Z
 19. AI-наставник: промпт-шаблон и анти-паттерн "делай за меня"
 20. Коммуникация как роль Лидера (Vibe x Management)
 21. Задание недели: один реальный разговор
-22. Анонс M2 и мост к следующей неделе
+22. Анонс W2 и мост к следующей неделе
 
 Требования:
 - стиль и визуальная логика такие же, как в части 1;

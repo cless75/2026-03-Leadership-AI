@@ -23,18 +23,16 @@
 | MANIFEST | `…/Student-AI-Pack/MANIFEST.md` |
 | Шаблоны | `…/Student-AI-Pack/templates/*.md` |
 
-## Материалы участника по модулям
+## Материалы по модулям
 
-Копировать содержимое **`Module-N/Participant/`** (публичное). На релизе v1 минимум **M1**; по мере готовности — M2–M4.
+Копировать содержимое **`Module-N/Participant/`**. Для модулей с готовым NLM-пакетом также копировать **`Module-N/NotebookLM/`**.
 
-| Модуль | Путь в каноне |
-|--------|----------------|
-| M1 | `MS-Courses/25-CM-MDPG/504-CM-AI-Empowered-Team/Module-1/Participant/` |
-| M2 | `…/Module-2/Participant/` |
-| M3 | `…/Module-3/Participant/` |
-| M4 | `…/Module-4/Participant/` |
-
-Опционально для NotebookLM: `Module-N/NotebookLM/*.md` (без приватных заметок).
+| Модуль | Participant | NotebookLM |
+|--------|-------------|------------|
+| M1 | `MS-Courses/25-CM-MDPG/504-CM-AI-Empowered-Team/Module-1/Participant/` | `.../Module-1/NotebookLM/` |
+| M2 | `.../Module-2/Participant/` | `.../Module-2/NotebookLM/` |
+| M3 | `.../Module-3/Participant/` | `.../Module-3/NotebookLM/` |
+| M4 | `.../Module-4/Participant/` | `.../Module-4/NotebookLM/` + корневые `Module-4/Source-Manifest-M4.md`, `Module-4/Upload-Checklist-M4.md` |
 
 ## Навыки курса по модулям
 
@@ -54,7 +52,15 @@
 | **M3** | **S3.02** | **`504-M3-AI-Skill-Manage-Up.md`** | **Manage Up** |
 | **M3** | **S3.03** | **`504-M3-AI-Skill-Negotiation-Alignment.md`** | **Переговоры** |
 | **M3** | **S3.04** | **`504-M3-AI-Skill-Conflict-Escalation.md`** | **Конфликт и эскалация** |
-| M4 | S4.00-S4.04 | `504-M4-AI-Skill-*.md` | В работе |
+| **M3** | **S3.05** | **`504-M3-AI-Skill-Stakeholder-Shadow-Profiling.md`** | **Профилирование тени стейкхолдера** |
+| **M3** | **S3.06** | **`504-M3-AI-Skill-Shadow-Communication-Planning.md`** | **Коммуникация с учётом тени** |
+| **M3** | **S3.07** | **`504-M3-AI-Skill-Dark-Triad-Communication.md`** | **Работа с тёмной триадой** |
+| **M4** | **S4.00** | **`504-M4-AI-Skill-Team-Development-Strategy-Orchestrator.md`** | **Стратегия развития команды** |
+| **M4** | **S4.01** | **`504-M4-AI-Skill-Retrospective-Reflection.md`** | **Рефлексия и ретроспектива** |
+| **M4** | **S4.02** | **`504-M4-AI-Skill-Practice-Based-Learning.md`** | **Обучение через практику** |
+| **M4** | **S4.03** | **`504-M4-AI-Skill-Team-Adaptability.md`** | **Миссия и адаптивность** |
+| **M4** | **S4.04** | **`504-M4-AI-Skill-Feedback-Culture.md`** | **Культура обратной связи** |
+| **M4** | **M4+** | **`504-M4-AI-Skill-EQ-Diagnosis-Mentor.md`, `504-M4-AI-Skill-Primal-Leadership-Mentor.md`** | **Дополнительные менторы модуля** |
 
 ## Вход EQ для участника (страница-объяснение)
 
@@ -65,7 +71,7 @@
 ## Не включать в студенческий дистрибутив
 
 - `Module-N/Facilitator/Private/`
-- `Module-N/Facilitator/` (кроме явного решения курса о публичном фасилитации — по умолчанию **не включать**)
+- `Module-N/Facilitator/` (кроме специально вынесенных публичных NLM-артефактов)
 - `2026/504/*` (операционный контур)
 - `.env`, `.mcp.json`, секреты
 
