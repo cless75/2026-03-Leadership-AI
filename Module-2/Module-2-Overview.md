@@ -20,7 +20,12 @@ status_code: 3
 - участник имеет **карту value chain** на 5–9 шагов с обозначенным bottleneck;
 - участник имеет **1–3 точки расширения AI** с приоритизацией Impact × Effort и стилем Бланшара;
 - участник явно отметил **минимум 1 антипаттерн** (где AI = коляска или «золотая клетка»);
-- участник провёл **один точечный эксперимент** на узком месте (S05/S06/S07/S08).
+- участник провёл **один точечный эксперимент** на узком месте (S05/S06/S07/S08);
+- участник прошёл **обязательный Mid-Course Diagnostic** ([[MS-Courses/25-CM-MDPG/504-CM-AI-Empowered-Team/Module-2/Participant/504-M2-HW-Mid-Course-Diagnostic|504-M2-HW-Mid-Course-Diagnostic]]) — сравнение деклараций и фактов, явный выбор Continue / Adjust / Pivot для M3–M4.
+
+## Обязательный checkpoint после M2
+
+По [[MS-Courses/25-CM-MDPG/504-CM-AI-Empowered-Team/Module-2/Participant/504-M2-HW-Mid-Course-Diagnostic|504-M2-HW-Mid-Course-Diagnostic]]: после прохождения M1–M2 запускается `/mid-course-diagnostic` (навык `ms-participant-profile`, режим 3, 45–60 мин). Это **жёсткий gate** — при `/session-start` по M3 без актуального diagnostic за 30 дней session-link блокирует старт и предлагает сначала пройти checkpoint. Opt-out только с явной фиксацией пропуска в `ms-profile.md`.
 
 ## Пакет «После воркшопа» (2026-04-09)
 

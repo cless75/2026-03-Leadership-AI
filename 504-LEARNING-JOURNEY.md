@@ -19,18 +19,44 @@ tags: [504, curriculum, participant]
 
 ## Недели: цель, результаты, ключевые концепты
 
-| Неделя | Тема (кратко) | Обзор | Ключевые концепты (имена) |
-|--------|---------------|-------|---------------------------|
-| **M1** | Коммуникация, Хоукинз #2 | [[Module-1/Module-1-Overview|Week 1]] · старт: [[Module-1/Participant/504-M1-Participant-Start-Guide|инструкция M1]] | Hawkins-Team-Competencies, Exoskeleton-vs-Wheelchair, AI-Skill-Architecture-Three-Layers, Vibe-X-Management |
-| **M2** | Процессы, Хоукинз #3 | [[Module-2/Module-2-Overview|Week 2]] | Hawkins #3, Tuckman, Ideal Team Player, Organizational Rhythm, Situational Leadership, AI three layers |
-| **M3** | По программе курса | *Материалы выдаёт команда* | *По выдаче* |
-| **M4** | По программе курса | *Материалы выдаёт команда* | *По выдаче* |
+| Неделя | Тема (кратко) | Обзор | Ключевые концепты |
+|--------|---------------|-------|-------------------|
+| **M1** | Коммуникация + управление границами, Хоукинз #2 | [[Module-1/Module-1-Overview\|Module 1]] · старт: [[Module-1/Participant/504-M1-Participant-Start-Guide\|инструкция M1]] | Hawkins #2, Exoskeleton-vs-Wheelchair, AI-Skill-Architecture-Three-Layers, **Boundaries-Terry-Cole** |
+| **M2** | Процессы, Хоукинз #3 + **обязательный Mid-Course Diagnostic** | [[Module-2/Module-2-Overview\|Module 2]] | Hawkins #3, Tuckman, Ideal Team Player, Organizational Rhythm, Situational Leadership |
+| **M3** | Стейкхолдеры, Хоукинз #5 + **Pathology vs Maturity Reality Check** | [[Module-3/Participant/504-M3-AI-Skill-Stakeholder-Orchestrator\|S3.00 оркестратор]] | Leadership Shadow (Hogan), Dark Triad, PAEI, Thomas-Kilmann, **непатологическая интерпретация + ННО** |
+| **M4** | Рефлексия, миссия, культура + **Full Profile Synthesis** | *по выдаче* | *по выдаче* |
 
-Развёрнутые карточки концептов находятся в полном vault курса у команды MDPG; в автономном репозитории сохранены **имена** и связь с неделей.
+## Жизненный цикл профиля участника (сквозной)
+
+Помимо HW по модулям — **обязательный** цикл обновления личного профиля через программы Стратегической мастерской (навык `ms-participant-profile`):
+
+| Когда | Что | Команда |
+|---|---|---|
+| Старт курса | Создать `ms-profile.md v1` (сквозной, живёт вне репо курса) | `/profile-intake` |
+| Конец каждого модуля | Быстрое обновление по дельтам (20–30 мин) | `/profile-refresh` |
+| **После M2 — обязательно** | Mid-Course Diagnostic: сравнение деклараций и фактов, выбор Continue / Adjust / Pivot | `/mid-course-diagnostic` |
+| Конец курса | Full Synthesis: полный реверс-инжиниринг + опциональные рекомендации | `/profile-synthesis` |
+
+## Самопомощь при перегрузке
+
+В любой момент курса, если появляются маркеры истощения («не до того», «всё на автомате», пропуски занятий, устойчивые соматические сигналы) — запустить **`/burnout-check`** (навык `burnout-self-diagnosis`). Вывод — одна из 4 зон: 🟢 норма / 🟡 дефицит / 🟠 выгорание в развитии / 🔴 острое выгорание — с конкретными рекомендациями. При 🔴 навык автоматически предложит обратиться к психотерапевту.
+
+AI-скиллы курса (`ms-participant-profile`, `session-link`, M3 Shadow/Dark-Triad) имеют **авто-триггер** по burnout-маркерам: если в твоих материалах они появляются, скилл сам предложит `/burnout-check` до продолжения своей работы.
+
+## Канонические концепты
+
+Полные карточки — в `BoK/Concepts/` (локально) и в `MS-Courses/Concepts/` (канонический слой Стратегической мастерской):
+
+- Hawkins-Team-Competencies — 5 компетенций команды (Хоукинз).
+- Exoskeleton-vs-Wheelchair — AI как усилитель vs замена ответственности.
+- AI-Skill-Architecture-Three-Layers — три слоя AI-навыков (D / У / Н).
+- Leadership-Shadow-Hogan-Derailers — 11 деструкторов Hogan.
+- MLE-Framework — уровни лидерства IC / группа / команда / направление.
+- **Boundaries-Terry-Cole** — внутренние и внешние границы, HFC, Boundary Destroyers.
 
 ## Навыки AI в этом репозитории
 
-Полный перечень и триггеры: [[Student-AI-Pack/MANIFEST|MANIFEST]] и `CLAUDE.md` в корне. Для сессий и ПЗ используйте **session-link** (`/session-close`, `/session-start`, `/session-result`).
+Полный перечень, триггеры и артефакты — [[Student-AI-Pack/MANIFEST|MANIFEST]] и `CLAUDE.md` в корне.
 
 ## См. также
 

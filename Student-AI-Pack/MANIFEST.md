@@ -44,6 +44,9 @@
 |--------|---------|------|------------|
 | M1 | S1.01 | `504-M1-AI-Mentor-Communication.md` | Обратная связь и коммуникация |
 | M1 | S1.05 | `504-M1-AI-Skill-Situational-Leadership.md` | Ситуационное лидерство |
+| **M1** | **S1.06** | **`504-M1-AI-Skill-Boundary-Diagnostic.md`** | **Диагностика внутренних и внешних границ (Terry Cole)** |
+| **M1** | **S1.07** | **`504-M1-AI-Skill-Boundary-Communication.md`** | **Коммуникация границ — скрипты под стейкхолдеров** |
+| **M1** | **S1.08** | **`504-M1-AI-Skill-HFC-Release.md`** | **Работа с High-Functioning Codependency — 4 практики** |
 | M2 | S2.00 | `504-M2-AI-Skill-Value-Chain-Diagnostics.md` | Value Chain (оркестратор) |
 | M2 | S2.01 | `504-M2-AI-Skill-Team-Interaction-Design.md` | Дизайн взаимодействия |
 | M2 | S2.02 | `504-M2-AI-Skill-Roles-Responsibilities.md` | Роли и ответственность |
