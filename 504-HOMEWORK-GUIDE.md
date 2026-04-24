@@ -12,7 +12,7 @@ tags: [504, homework, participant]
 
 ## Порядок (каждая неделя N)
 
-1. Открой **инструкцию недели:** `Week-N/Participant/504-WN-HW-Instructions.md`  
+1. Открой **инструкцию недели:** `Module-N/Participant/504-MN-HW-Instructions.md`  
    В этом репозитории доступны **M1** и **M2**; для M3–M4 используйте файлы, которые выдаст команда курса.
 2. Прочитай **обзор недели:** [[Module-1/Module-1-Overview|Week 1]] или [[Module-2/Module-2-Overview|Week 2]] — цель, результаты, концепты.
 3. Пройди **чеклист перед сдачей:** [[Student-AI-Pack/templates/hw-submission-checklist|hw-submission-checklist]].
