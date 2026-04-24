@@ -19,8 +19,10 @@ My-Notes/**/*.md
 !My-Notes/README.md
 !My-Notes/TEMPLATE-WN-summary.md
 
-# Obsidian (локальные настройки)
+# Obsidian (локальные настройки и default-артефакты)
 .obsidian/
+Без названия.*
+*.canvas.local
 
 # OS / редактор
 .DS_Store
