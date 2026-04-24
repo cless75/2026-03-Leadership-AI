@@ -208,13 +208,26 @@ project: ms-cross-program
 
 ---
 
+## Интеграция с `burnout-self-diagnosis`
+
+В Quick Refresh и Mid-Course Diagnostic агент **проверяет входящие материалы на маркеры выгорания** (из раздела «Автотриггер в других навыках» в [burnout-self-diagnosis/SKILL.md](../burnout-self-diagnosis/SKILL.md)). Если маркеры найдены — предлагает `/burnout-check` **до** обновления секций профиля.
+
+Мотивация: выгорание искажает самооценку по всем измерениям (EQ, уязвимости, отношение к власти, мотивация). Обновлять профиль «из состояния выгорания» значит фиксировать временное как устойчивое.
+
+Результаты `/burnout-check` обновляют:
+
+- секцию 5 «Уязвимости и триггеры» (добавляется пункт с текущими триггерами перегруза);
+- секцию 8 «Эмоциональный фон» (добавляется текущая зона: 🟢/🟡/🟠/🔴 + дата);
+- секцию 11 «Прогресс по программам» для активной программы — флаг `health_signal: <уровень>` для будущей Mid-Course Diagnostic и для ведущего.
+
 ## Связанные навыки и файлы
 
-- [participant-profile-load](.cursor/skills/participant-profile-load/SKILL.md) — используется для загрузки `ms-profile.md` в контекст.
-- [course-goals-intake](.cursor/skills/course-goals-intake/SKILL.md) — вызывается из Initial Intake как под-сценарий для курсо-специфичных целей.
-- [eq-self-diagnosis](.cursor/skills/eq-self-diagnosis/SKILL.md) — запускается из Quick Refresh и Full Synthesis для обновления EQ-секции.
-- [session-link](.cursor/skills/session-link/SKILL.md) — интегрируется через mid-course gate.
-- [participant-learning-profile](.cursor/skills/participant-learning-profile/SKILL.md) — **параллельный** навык для ведущего, не замещается.
+- [participant-profile-load](../participant-profile-load/SKILL.md) — используется для загрузки `ms-profile.md` в контекст.
+- [course-goals-intake](../course-goals-intake/SKILL.md) — вызывается из Initial Intake как под-сценарий для курсо-специфичных целей.
+- [eq-self-diagnosis](../eq-self-diagnosis/SKILL.md) — запускается из Quick Refresh и Full Synthesis для обновления EQ-секции.
+- [burnout-self-diagnosis](../burnout-self-diagnosis/SKILL.md) — авто-триггер при маркерах истощения; блокирующий gate перед обновлением профиля из состояния выгорания.
+- [session-link](../session-link/SKILL.md) — интегрируется через mid-course gate.
+- [participant-learning-profile](../participant-learning-profile/SKILL.md) — **параллельный** навык для ведущего, не замещается.
 
 ## Запреты
 
