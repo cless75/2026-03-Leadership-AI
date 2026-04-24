@@ -53,6 +53,10 @@ Obsidian vault **504-demo** / репозиторий **2026-03-Leadership-AI**: 
 | опрос целей на курс | `/course-goals-intake` | course-goals-intake | `goals-504.md` |
 | загрузи профиль | `/participant-profile-load` | participant-profile-load | резюме профиля |
 | подготовь ДЗ 504 | `/504-hw-submit-prep` | 504-hw-submit-prep | чеклист + инструкция `Module-N/Participant/504-MN-HW-Instructions.md` |
+| создай профиль участника MS, profile intake | `/profile-intake` | ms-participant-profile | `ms-profile.md v1` (сквозной профиль) |
+| обнови профиль (после модуля), profile refresh | `/profile-refresh` | ms-participant-profile | `ms-profile.md vN+1` + запись в daily |
+| mid-course diagnostic, checkpoint середины | `/mid-course-diagnostic` | ms-participant-profile | отчёт + решение Continue/Adjust/Pivot |
+| синтез профиля после курса, profile synthesis | `/profile-synthesis` | ms-participant-profile | отчёт-синтез + финальный `ms-profile` + опц. рекомендации |
 
 **Опционально (не в минимальном MANIFEST):** навык **participant-learning-profile** — «учебный профиль», «learner profile»; отдельной команды нет, читать `.cursor/skills/participant-learning-profile/SKILL.md`.
 

@@ -13,6 +13,7 @@
 | `504-hw-submit-prep` | `.cursor/skills/504-hw-submit-prep/` | Подготовка черновика сдачи ДЗ |
 | `eq-self-diagnosis` | `.cursor/skills/eq-self-diagnosis/` | Самодиагностика EQ (Гоулман), мини-кейсы |
 | `stai-problem-solving` | `.cursor/skills/stai-problem-solving/` | Системное решение проблемы (STAI 514): формулирование → диагностика → решение → реализация |
+| `ms-participant-profile` | `.cursor/skills/ms-participant-profile/` | Сквозной профиль участника MS через программы: Intake / Quick Refresh / Mid-Course Diagnostic (обязательный) / Full Synthesis |
 
 ## Служебные файлы пакета (этот каталог)
 
