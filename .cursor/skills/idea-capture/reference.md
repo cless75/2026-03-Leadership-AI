@@ -9,9 +9,9 @@
 ## Куда записывать (общий Inbox не используется)
 
 **Канон ежедневной заметки:**
-- Путь: **`YYYY/01-Dayly/YYYY-MM-DD.md`** (год в пути = год даты). Obsidian Daily notes: папка **`YYYY/01-Dayly`**, формат имени `YYYY-MM-DD`, шаблон `Templates/Daily.Template.md`.
+- Путь: **`YYYY/01-Daily/YYYY-MM-DD.md`** (год в пути = год даты). Obsidian Daily notes: папка **`YYYY/01-Daily`**, формат имени `YYYY-MM-DD`, шаблон `Templates/Daily.Template.md`.
 - Секция: **`## Входящие дня`** (очередь на вечерний debrief по `daily-productivity`). Legacy: `### 💡 Идеи` — не создавать дубли; писать в «Входящие дня».
-- **Legacy:** папка `01 Dayly/` удалена; всё в `YYYY/01-Dayly/`.
+- **Legacy:** папка `01 Dayly/` удалена; всё в `YYYY/01-Daily/`.
 
 - **Ежедневная заметка:** по пути выше. «Сегодня» — при возможности `obsidian daily`, затем допись. **По умолчанию:** если в запросе **не указан проект** (ProjectId / Inbox проекта), запись сразу в ежедневную заметку на дату фиксации — без вопроса «куда записать» (см. шаг 2 в [SKILL.md](.cursor/skills/idea-capture/SKILL.md)).
 - **Inbox проекта:** секция `# 📥 Inbox` или эквивалент (`## 📥 Inbox …`) в файле проекта. Проект ищется по ProjectId или названию (Grep по `ProjectId: N` в frontmatter, тег `#project`). Если секции нет — добавить по [258-CRUD](02-CoreAutomation/258/258-CRUD-Правила работы с сущностями.md).
@@ -62,4 +62,4 @@
 
 ## Альтернатива в Obsidian
 
-[Inbox Capture - Быстрая фиксация](02-CoreAutomation/258/Guides/Inbox%20Capture%20-%20Быстрая%20фиксация.md): Ctrl+Shift+X, запись в Inbox недели / `YYYY/00-Inbox/`. Навык idea-capture пишет в **ежедневную заметку** `YYYY/01-Dayly/YYYY-MM-DD.md` → **`## Входящие дня`**, без общего Inbox.
+[Inbox Capture - Быстрая фиксация](02-CoreAutomation/258/Guides/Inbox%20Capture%20-%20Быстрая%20фиксация.md): Ctrl+Shift+X, запись в Inbox недели / `YYYY/00-Inbox/`. Навык idea-capture пишет в **ежедневную заметку** `YYYY/01-Daily/YYYY-MM-DD.md` → **`## Входящие дня`**, без общего Inbox.
