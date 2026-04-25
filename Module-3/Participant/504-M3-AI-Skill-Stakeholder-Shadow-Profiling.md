@@ -202,6 +202,23 @@ gd_last_export: '2026-04-14T19:52:51.777Z'
 - Когда пересмотрю профиль:
 ```
 
+## Куда сохранять результаты
+
+Результаты профилирования стейкхолдера — в `My-Notes/Logs/M3-S3.05-{stakeholder-slug}.md` (детальный лог) и опционально `My-Notes/Sessions/M3-S3.05-{stakeholder-slug}-conspect.md` (сжатый конспект для перечитывания).
+
+**Frontmatter** (по `Storage-Policy/Privacy-and-Storage-Policy.md`):
+
+```yaml
+privacy: personal
+kind: log  # или conspect для conspect-файла
+contains-pii: yes  # имена стейкхолдеров присутствуют
+commercial-secrets: possible  # если есть оценки токсичности компании / стиля управления
+mentor-shareable: yes-after-mask  # обязательно через /mentor-handoff
+tags: [m3, shadow-profiling, stakeholder]
+```
+
+Если профилирование сопровождается тренировочными формулировками разговоров с этим стейкхолдером — **тренировочный текст** в `My-Notes/Private/M3-S3.05-{stakeholder-slug}-rehearsal.md` (не handoff, не git).
+
 ---
 
 ## Автотриггер непатологической интерпретации + Reality Check

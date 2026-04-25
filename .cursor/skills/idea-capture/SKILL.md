@@ -30,15 +30,22 @@ description: >-
 
 Если у идеи есть структура (несколько абзацев, подразделы, ссылки) или участник явно просит «вынеси в заметку» / «отдельный файл».
 
-- **Файл:** `My-Notes/{YYYY-MM-DD}-Idea-{slug}.md`, где `slug` — короткий транслит / латиница (без пробелов, без спецсимволов)
-- **Минимальный frontmatter:**
+- **Файл:** `My-Notes/Ideas/{YYYY-MM-DD}-Idea-{slug}.md`, где `slug` — короткий транслит / латиница (без пробелов, без спецсимволов)
+- **Frontmatter** (с маркерами приватности по `Storage-Policy/Privacy-and-Storage-Policy.md`):
   ```yaml
   ---
+  privacy: personal
+  kind: idea
+  contains-pii: no
+  commercial-secrets: none
+  mentor-shareable: yes
   tags: [idea, 504]
   CDate: YYYY-MM-DD
   Day: "[[YYYY-MM-DD]]"
   ---
   ```
+  
+  **Auto-suggest:** если в тексте упомянуты имена коллег / руководителей → `privacy: personal`, `contains-pii: yes`, `mentor-shareable: yes-after-mask`. Если идея — резкое суждение о ком-то конкретном или планы reorganization компании → `commercial-secrets: possible`.
 - **Заголовок:** `# {текст заголовка}`
 - **Тело:** текст идеи
 - **В daily-note** (сценарий 1, но со ссылкой на этот файл) дописать строку в `## Входящие дня`: `- [ ] [[{YYYY-MM-DD}-Idea-{slug}|{заголовок}]] → Chat ⏰ HH:MM`

@@ -66,12 +66,13 @@ Obsidian vault **504-demo** / репозиторий **2026-03-Leadership-AI**: 
 ## Что не коммитить
 
 - `my-profile.md`, `goals-504.md`, `*.local.md` — личные данные и цели участника.
-- `My-Notes/*.md` — личные конспекты (исключения: `README.md` и `TEMPLATE-WN-summary.md`).
-- `2026/` — включая daily-notes (`YYYY/01-Daily/YYYY-MM-DD.md`), ПЗ, операционные артефакты.
+- `My-Notes/` целиком — личные конспекты, логи, диагностики, идеи, постмортем (исключения: `README.md` и `TEMPLATE-WN-summary.md`).
+- `My-Notes/handoff-*/`, `My-Notes/.name-mapping*` — handoff-пакеты и mapping имён.
+- `2026/` — daily-notes (`YYYY/01-Daily/YYYY-MM-DD.md`), ПЗ, операционные артефакты.
 - `.claude/session-handoff.md`, `.claude/settings.local.json` — локальные служебные файлы.
-- `.env`, `.mcp.env`, `.obsidian/` — секреты и локальные настройки Obsidian.
+- `.env`, `.mcp.env`, `.obsidian/`, `**/.html-renders/` — секреты, локальные настройки, рендеры.
 
-Полный список — в `.gitignore`. Не предлагать студенту коммитить эти файлы.
+Полный список — в `.gitignore`. Подробная политика хранения личной информации — в `Storage-Policy/Privacy-and-Storage-Policy.md`.
 
 ## Правила
 

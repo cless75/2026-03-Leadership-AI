@@ -157,6 +157,32 @@ description: >-
 
 Ждать ответ. Если «нет» / «пропуск» — блок «Следующие шаги» не добавлять.
 
+### CLOSE-3b. Двухрежимная запись (log + conspect)
+
+Помимо строки в daily — для значимых сессий создаём **два файла** в `My-Notes/`:
+
+- **Log** в `My-Notes/Logs/YYYY-MM-DD-HHmm-{slug}-log.md` — полный технический лог (вход, протокол, шаги, выход, артефакты). Шаблон: `Storage-Policy/templates/template-session-log.md`. Полезен для возможной передачи ментору после `/mentor-handoff`.
+- **Conspect** в `My-Notes/Sessions/YYYY-MM-DD-HHmm-{slug}-conspect.md` — сжатый конспект для тебя самого (3 главных пункта, что унесу в работу, open). Шаблон: `Storage-Policy/templates/template-session-conspect.md`. Для перечитывания.
+
+**Спросить:** «Создаём log, conspect или оба?». По умолчанию — **оба** для значимых сессий, **только log** для коротких операционных. Файлы связываются wikilink'ом cross-referенсятся.
+
+**Auto-suggest frontmatter** по контексту темы:
+
+- Тема упоминает имя коллеги / руководителя / клиента → `privacy: personal`, `contains-pii: yes`, `mentor-shareable: yes-after-mask`.
+- Тема — диагноз стейкхолдера (триада / макиавелл / нарцисс) → `commercial-secrets: possible`.
+- Тема — постмортем, личный срыв, тренировка разговора → `privacy: private`, размещение в `My-Notes/Private/`, **не создавать conspect** (только лог в Private/).
+- Иначе — `privacy: personal`, `mentor-shareable: yes`.
+
+В daily-note `## Заметки в течение дня` под блоком сессии — короткие ссылки:
+
+```markdown
+- [[Logs/YYYY-MM-DD-HHmm-{slug}-log|лог]] · [[Sessions/YYYY-MM-DD-HHmm-{slug}-conspect|конспект]]
+```
+
+Подробности — `Storage-Policy/Privacy-and-Storage-Policy.md` в корне репо.
+
+**Opt-out:** «только daily, без отдельных файлов» — пропустить CLOSE-3b.
+
 ### CLOSE-4. Смена статуса в заголовке
 
 Заменить скобки `(🔵 Старт)` / `(🟡 Продолжение)` на финальный:

@@ -73,6 +73,19 @@ project: ms-cross-program
 
 5. **Создать `ms-profile.md v1`** по шаблону `templates/ms-profile.template.md`. Frontmatter включает `ProfileVersion: v1`, `CDate`, `StartProgram`, `MS_Programs_Timeline`.
 
+   **Маркеры приватности в frontmatter:**
+   ```yaml
+   privacy: personal
+   kind: diagnostic
+   contains-pii: no  # auto -> yes, если в секциях 9 или 11 упоминаются имена руководителей
+   commercial-secrets: none  # auto -> possible, если упоминается стратегия компании
+   mentor-shareable: yes-after-mask
+   ```
+   
+   Auto-suggest при заполнении: если участник вводит имена / названия компании в секциях «Отношение к власти», «Прогресс по программам» → поднять `contains-pii: yes` и предложить пометить файл как `mentor-shareable: yes-after-mask`.
+
+5b. **Копия в `My-Notes/Diagnostics/`** (для удобства handoff и render-notes). Основной файл по `MS_PROFILE_PATH` остаётся каноном; копия обновляется при каждой версии. Это позволяет `/render-notes` строить timeline профиля без обращения к внешнему пути.
+
 6. **Daily-note first day:** в текущую daily добавить строку `Профиль MS создан: [[ms-profile|ms-profile.md v1]]`. В `MS_PROFILE_PATH` записать cross-link на файл дня.
 
 **DoD:** `ms-profile.md v1` с заполненными 9 секциями; путь сохранён в settings; ссылка в daily.

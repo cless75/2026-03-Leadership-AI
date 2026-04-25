@@ -324,6 +324,25 @@ gd_last_export: '2026-04-14T19:53:15.759Z'
 
 ---
 
+## Куда сохранять результаты
+
+Триадная диагностика — **самый чувствительный** результат курса. По умолчанию:
+
+- **Лог диагностики** в `My-Notes/Logs/M3-S3.07-{stakeholder-slug}.md` с frontmatter:
+  ```yaml
+  privacy: personal
+  kind: log
+  contains-pii: yes
+  commercial-secrets: possible  # цитаты руководителей с оценками
+  mentor-shareable: yes-after-mask
+  ```
+- **Постмортем-журнал**, если ведётся (категории A–E наблюдений) — **только** в `My-Notes/Private/M3-postmortem-observations.md`. Никогда не handoff'ится, никогда не коммитится. Правила безопасности — там же в файле.
+- **Тренировочные тексты** возможных разговоров со стейкхолдером — `My-Notes/Private/`.
+
+Подробности — `Storage-Policy/Privacy-and-Storage-Policy.md`.
+
+---
+
 ## Связанные документы
 
 - [[Concepts/Leadership-Shadow-Hogan-Derailers|Leadership Shadow (Hogan) — каноническая карточка]]

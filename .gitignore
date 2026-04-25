@@ -13,11 +13,18 @@ goals-504.md
 .mcp.env
 **/.mcp.env
 
-# Личные конспекты (шаблон и README репозитория — не игнорировать)
+# Личные конспекты (вся структура My-Notes/ приватна — Public/Sessions/Logs/Diagnostics/HW/Ideas/Private)
 My-Notes/*.md
 My-Notes/**/*.md
 !My-Notes/README.md
 !My-Notes/TEMPLATE-WN-summary.md
+
+# Handoff-пакеты (содержат обезличенные копии + mapping имён)
+My-Notes/handoff-*/
+My-Notes/.name-mapping*
+
+# HTML-рендеры (Dashboard прогресса)
+**/.html-renders/
 
 # Obsidian (локальные настройки и default-артефакты)
 .obsidian/

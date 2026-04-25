@@ -19,6 +19,20 @@ CDate: 2026-04-03
 | [[templates/participant-profile.template|Шаблон профиля]] | Основа для `my-profile.md` |
 | [[templates/hw-submission-checklist|Чеклист сдачи ДЗ]] | Перед отправкой домашки |
 
+## Где что хранить (политика)
+
+В `My-Notes/` — **семь папок** под разные типы материалов и уровни приватности:
+
+- `Public/` — публичные заметки, общие концепты
+- `Sessions/` — конспекты сессий для перечитывания (синтез, инсайты)
+- `Logs/` — технические логи сессий (полные, для возможной передачи ментору)
+- `Diagnostics/` — EQ, burnout, версии профиля
+- `HW/` — HW-протоколы модулей
+- `Ideas/` — идеи и развёрнутые мысли
+- `Private/` — постмортем, тренировочные тексты, личные срывы — **никогда наружу** (в `.gitignore`)
+
+Подробно — [[../Storage-Policy/Privacy-and-Storage-Policy|Privacy & Storage Policy]] в корне репо. Эта политика действует для всех навыков (session-link, idea-capture, micro-decision-514, ms-participant-profile, burnout-self-diagnosis, M3 skills) — они auto-suggest правильный placement и frontmatter при создании файлов.
+
 ## Служебные навыки (в репозитории vault)
 
 После сборки релиза они лежат в `.cursor/skills/`:

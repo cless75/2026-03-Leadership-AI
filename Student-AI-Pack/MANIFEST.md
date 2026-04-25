@@ -25,6 +25,14 @@
 | MANIFEST | `…/Student-AI-Pack/MANIFEST.md` |
 | Шаблоны | `…/Student-AI-Pack/templates/*.md` |
 
+## Политика хранения и шаблоны конспектов/логов
+
+| Файл | Путь в каноне |
+|------|----------------|
+| Privacy & Storage Policy | `MS-Courses/25-CM-MDPG/504-CM-AI-Empowered-Team/Storage-Policy/Privacy-and-Storage-Policy.md` |
+| Шаблон тех. лога сессии | `…/Storage-Policy/templates/template-session-log.md` |
+| Шаблон конспекта сессии | `…/Storage-Policy/templates/template-session-conspect.md` |
+
 ## Материалы по модулям
 
 Копировать содержимое **`Module-N/Participant/`**. Для модулей с готовым NLM-пакетом также копировать **`Module-N/NotebookLM/`**.

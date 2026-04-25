@@ -56,7 +56,24 @@ description: >-
 
 ### Сценарий 2 — журнал решений (для накопления паттернов)
 
-Отдельный файл `My-Notes/decisions-log.md` с датированными секциями:
+Отдельный файл `My-Notes/Diagnostics/decisions-log.md` (или `My-Notes/Logs/decisions-log.md` по выбору участника) с датированными секциями.
+
+**Frontmatter файла журнала** (создаётся при первом решении, потом не меняется):
+
+```yaml
+---
+privacy: personal
+kind: diagnostic
+contains-pii: no
+commercial-secrets: none
+mentor-shareable: yes-after-mask
+tags: [decisions, 504]
+---
+```
+
+Auto-suggest: если решение касается людей (увольнение, повышение, переговоры) → `commercial-secrets: possible`. Если это решение exit/entry в компанию → `mentor-shareable: yes-after-mask`.
+
+Структура секции в журнале:
 
 ```markdown
 ## 2026-04-25 HH:mm — <короткая тема>
