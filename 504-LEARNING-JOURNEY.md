@@ -43,6 +43,26 @@ tags: [504, curriculum, participant]
 
 AI-скиллы курса (`ms-participant-profile`, `session-link`, M3 Shadow/Dark-Triad) имеют **авто-триггер** по burnout-маркерам: если в твоих материалах они появляются, скилл сам предложит `/burnout-check` до продолжения своей работы.
 
+## Обзор прогресса и передача материалов
+
+**Перечитать свою неделю / модуль:** `/render-notes` (по умолчанию `week`). Соберёт Dashboard в HTML на твоём Desktop — timeline сессий с бейджами приватности, текущий статус (burnout, профиль), прогресс EQ, активные эксперименты, статистика. **Только для тебя.**
+
+**Передать материалы ментору / терапевту / peer:** `/mentor-handoff`. Обезличит имена, проверит коммерческую тайну, соберёт пакет в HTML/PDF. Файлы из `My-Notes/Private/` (постмортем, тренировочные тексты) **никогда** не попадают в передачу — даже с маскированием. Подробно — [[Storage-Policy/Privacy-and-Storage-Policy|Privacy & Storage Policy]].
+
+## Как работать с заметками
+
+Структура `My-Notes/`:
+
+- `Public/` — открытое
+- `Sessions/` — конспекты сессий (для перечитывания)
+- `Logs/` — технические логи сессий (для возможной передачи)
+- `Diagnostics/` — EQ, burnout, профиль
+- `HW/` — домашние задания
+- `Ideas/` — идеи
+- `Private/` — только моё, никогда наружу
+
+Навыки `session-link`, `idea-capture`, `ms-participant-profile`, `burnout-self-diagnosis` сами кладут файлы в правильную папку и проставляют frontmatter `privacy/kind/contains-pii/commercial-secrets/mentor-shareable`. Подробности — [[Storage-Policy/Privacy-and-Storage-Policy|Privacy & Storage Policy]].
+
 ## Канонические концепты
 
 Полные карточки — в `BoK/Concepts/` (локально) и в `MS-Courses/Concepts/` (канонический слой Стратегической мастерской):

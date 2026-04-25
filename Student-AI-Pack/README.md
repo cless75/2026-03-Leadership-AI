@@ -33,6 +33,11 @@ CDate: 2026-04-03
 
 Подробно — [[../Storage-Policy/Privacy-and-Storage-Policy|Privacy & Storage Policy]] в корне репо. Эта политика действует для всех навыков (session-link, idea-capture, micro-decision-514, ms-participant-profile, burnout-self-diagnosis, M3 skills) — они auto-suggest правильный placement и frontmatter при создании файлов.
 
+## Передача материалов наружу и собственный обзор
+
+- **Передача ментору / супервизору / терапевту / peer / публикации** — `/mentor-handoff`. Обезличит имена, проверит коммерческую тайну, упакует в HTML/PDF на твой Desktop. Файлы из `My-Notes/Private/` или с `privacy: private` **никогда** не попадают в пакет.
+- **Просмотр своего прогресса** — `/render-notes` (по умолчанию `week`, есть режимы `day`, `module M2`, `range A..B`). Соберёт Dashboard в HTML на `Desktop/<твой_псевдоним>/dashboard-YYYY-MM-DD.html`: timeline сессий, текущая burnout-зона, прогресс EQ, активные эксперименты, статистика. Бейджи приватности показывают, что куда можно. **Только для тебя** — не для передачи.
+
 ## Служебные навыки (в репозитории vault)
 
 После сборки релиза они лежат в `.cursor/skills/`:

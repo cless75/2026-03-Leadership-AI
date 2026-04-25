@@ -59,6 +59,7 @@ Obsidian vault **504-demo** / репозиторий **2026-03-Leadership-AI**: 
 | синтез профиля после курса, profile synthesis | `/profile-synthesis` | ms-participant-profile | отчёт-синтез + финальный `ms-profile` + опц. рекомендации |
 | проверь выгорание, устал ли я, burnout check | `/burnout-check` | burnout-self-diagnosis | зона 🟢/🟡/🟠/🔴 + `My-Notes/Diagnostics/burnout-YYYY-MM-DD.md` + обновление профиля |
 | подготовь handoff для ментора, обезличить и упаковать | `/mentor-handoff` | mentor-handoff | обезличенный пакет в `My-Notes/handoff-YYYY-MM-DD-{цель}/` + HTML/PDF на Desktop |
+| dashboard прогресса, render notes, html-обзор недели | `/render-notes` | render-notes-html | HTML на `Desktop/<участник>/dashboard-YYYY-MM-DD.html` (timeline, EQ, статус, эксперименты) |
 
 **Опционально (не в минимальном MANIFEST):** навык **participant-learning-profile** — «учебный профиль», «learner profile»; отдельной команды нет, читать `.cursor/skills/participant-learning-profile/SKILL.md`.
 

@@ -16,6 +16,7 @@
 | `ms-participant-profile` | `.cursor/skills/ms-participant-profile/` | Сквозной профиль участника MS через программы: Intake / Quick Refresh / Mid-Course Diagnostic (обязательный) / Full Synthesis |
 | `burnout-self-diagnosis` | `.cursor/skills/burnout-self-diagnosis/` | Самодиагностика выгорания (Maslach + JD-R + физиология): Quick / Full / Re-check, 4 зоны с рекомендациями. Авто-триггер в daily-notes и профиле при маркерах истощения |
 | `mentor-handoff` | `.cursor/skills/mentor-handoff/` | Обезличивание материалов участника для передачи ментору / супервизору / терапевту / peer / публикации: auto-mask имён, проверка коммерческой тайны, упаковка в HTML/PDF |
+| `render-notes-html` | `.cursor/skills/render-notes-html/` | Dashboard прогресса участника в HTML: timeline сессий, EQ, burnout-зона, активные эксперименты, бейджи приватности. Только для самого участника (Desktop) |
 
 ## Служебные файлы пакета (этот каталог)
 
