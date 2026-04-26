@@ -17,7 +17,7 @@ goals-504.md
 My-Notes/*.md
 My-Notes/**/*.md
 !My-Notes/README.md
-!My-Notes/TEMPLATE-WN-summary.md
+!My-Notes/TEMPLATE-*.md
 
 # Handoff-пакеты (содержат обезличенные копии + mapping имён)
 My-Notes/handoff-*/
