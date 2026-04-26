@@ -45,8 +45,20 @@ MDate: 2026-04-18
 | 12 | `504-M4-AI-Skill-Team-Development-Strategy-Orchestrator.md` | S4.00 | v1 |
 | 13 | `504-M4-AI-Skill-Retrospective-Reflection.md` | S4.01 | v1 |
 | 14 | `504-M4-AI-Skill-Practice-Based-Learning.md` | S4.02 | v1 |
-| 15 | `504-M4-AI-Skill-Team-Adaptability.md` | S4.03 | v1 |
+| 15 | `504-M4-AI-Skill-Team-Adaptability.md` | S4.03 | v1 (Decision Memo block + расширение S4.03e1) |
 | 16 | `504-M4-AI-Skill-Feedback-Culture.md` | S4.04 | v1 |
+| 17 | `504-M4-AI-Skill-Extension-Brand-Identity-Equity.md` | S4.03e1 | v1 (расширение S4.03) |
+
+## Канонические концепты (BoK/Concepts/, для Slide Deck и Concept Cards)
+
+Концепты, на которые ссылаются навыки M4. Загружать в NLM, если Slide Deck должен покрывать модели.
+
+| Файл | Используется в | Статус |
+|------|----------------|--------|
+| `BoK/Concepts/MWe-Integration-Siegel.md` | S4.03 (контур идентификации Me → We → MWe) | v1 |
+| `BoK/Concepts/Subpersonalities-and-Roles.md` | S4.03 (баланс ролей при миссии) | v1 |
+| `BoK/Concepts/Brand-Identity-Prism-Kapferer.md` | S4.03e1 (6 граней идентичности бренда) | v1 (новое, 2026-04-26) |
+| `BoK/Concepts/Brand-Equity-Pyramid-Keller-CBBE.md` | S4.03e1 (4 уровня зрелости капитала бренда) | v1 (новое, 2026-04-26) |
 
 ## Ограничения
 
